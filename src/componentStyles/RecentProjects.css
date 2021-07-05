@@ -1,0 +1,98 @@
+.recent-projects{
+    min-height: 100vh;
+    width: 98%;
+    margin: 5rem auto;
+}
+.recent-projects-head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.recent-projects h4{
+    color: red;
+    padding: 1rem;
+    font-size: 1.6rem;
+    font-family: Roboto,sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+.recent-projects h2{
+    padding: 2rem;
+    position: relative;
+    margin-bottom: 1rem;
+    font-weight: 500;
+    margin-bottom: 5rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+.recent-projects h2::before{
+    content: '';
+    width: 30%;
+    height: 2px;
+    background-color: #7f8183;
+    position: absolute;
+    bottom: 0;
+    left: 35%;
+}
+.recent-projects-galery{
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    column-gap: 15px;
+    row-gap: 15px;
+}
+.recent-projects-galery img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 1s;
+}
+.galery-image-box{
+    position: relative;
+    overflow: hidden;
+}
+.hover-img{
+    position: absolute;
+    width: 88%;
+    height: 90%;
+    top: 5%;
+    left: 6%;
+    background-color: rgba(0, 0, 0, .9);
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+}
+.galery-image-box:hover img{
+    transform: scale(1.1);
+}
+.hover-img h3{
+    color: white;
+    font-weight: normal;
+}
+.hover-img span{
+    display: inline-block;
+    width: 1px;
+    height: 0px;
+    background-color: red;
+    margin: 5px;
+    transition: 0.5s;
+}
+.hover-img h5{
+    color: white;
+}
+.galery-image-box:hover .hover-img{
+    opacity: 1;
+}
+.galery-image-box:hover .hover-img span{
+    height: 40px;
+}
+
+@media screen and (max-width:1100px) {
+    .recent-projects-galery{
+        grid-template-columns: repeat(auto-fit,minmax(24rem,1fr));
+    }
+}

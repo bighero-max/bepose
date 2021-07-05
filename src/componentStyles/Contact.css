@@ -1,0 +1,139 @@
+.contact-img{
+    min-height: 60vh;
+    background-image: url('../images/who.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 5rem;
+    font-weight: 500;
+}
+.contact-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contact-head h2{
+    padding: 3rem;
+    position: relative;
+    font-weight: 500;
+}
+.contact-head h2::before{
+    content: '';
+    width: 60%;
+    height: 2px;
+    background-color: grey;
+    position: absolute;
+    left: 20%;
+    bottom: 0;
+}
+.contact-head h4{
+    color: gray;
+    font-size: 1.5rem;
+    padding: 3rem;
+    font-weight: normal;
+    font-family: Roboto,sans-serif;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+.contact-box{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.contact-address{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    flex: 1 1 30rem;
+    margin: 4rem 0;
+}
+.contact-address h3{
+    font-weight: 500;
+    font-size: 1.8rem;
+}
+.contact-address ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.contact-address ul li{
+    padding: 1.5rem 0;
+}
+.address-list h4{
+    font-weight: normal;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    padding: 1rem 0;
+}
+.address-list p{
+    font-size: 1.4rem;
+    font-family: Roboto,sans-serif;
+    color: #737373;
+    padding: 1rem 0;
+}
+.address-list li{
+    line-height: 1.5;
+}
+.contact-box form{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    flex: 1 1 40rem;
+    margin-top: 4rem;
+}
+.contact-box form input{
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 4rem;
+}
+.contact-box form textarea{
+    width: 100%;
+    padding: 1rem;
+    font-size: 2rem;
+    margin-bottom: 4rem;
+}
+.contact-box button{
+    border: none;
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+    padding: 1.5rem 2.5rem;
+    margin-bottom: 4rem;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.contact-box button:hover{
+    background-color: red;
+}
+
+@media screen and (max-width:755px) {
+    .contact-head h4{
+        width: 80%;
+    }
+}
+@media screen and (max-width:670px) {
+    .contact-box form{
+        order: 1;
+    }
+    .contact-address{
+        order: 2;
+    }
+    .contact-box{
+        width: 90%;
+    }
+}
+@media screen and (max-width:500px) {
+    .contact-head h4{
+        width: 95%;
+    }
+}

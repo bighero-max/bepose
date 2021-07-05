@@ -1,0 +1,180 @@
+.what-we{
+    min-height: 60vh;
+    background-image: url('../images/f.jpg');
+    background-position: top;
+    background-position-x: center;
+    background-position-y: top;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 5rem;
+    font-weight: 500;
+}
+
+.services-box{
+    width: 88%;
+    margin: 3rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.services-box div{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 3rem;
+    flex: 1 1 30rem;
+    min-height: 30rem;
+    transition: 1s;
+}
+.services-box div h3{
+    padding: 2rem 0;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 500;
+    transition: .5s;
+}
+.services-box i{
+    font-size: 5rem;
+    transition: 1s;
+}
+.services-box p{
+    font-family: Roboto,sans-serif;
+    color: #7c7c7c;
+    line-height: 1.5;
+}
+.services-box div:hover{
+    box-shadow: 0 10px 10px #7c7c7c;
+}
+.services-box div:hover i{
+    color: red;
+}
+.services-box div:hover h3{
+    color: red;
+}
+.services-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.services-head h2{
+    padding: 3rem;
+    position: relative;
+    font-weight: 500;
+}
+.services-head h2::before{
+    content: '';
+    width: 60%;
+    height: 2px;
+    background-color: grey;
+    position: absolute;
+    left: 20%;
+    bottom: 0;
+}
+.services-head h4{
+    color: gray;
+    font-size: 1.5rem;
+    padding: 3rem;
+    font-weight: normal;
+    font-family: Roboto,sans-serif;
+}
+.our-journal{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 88%;
+    margin: 0 auto;
+}
+.our-journal div{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 1rem;
+    flex-direction: column;
+    margin: 2rem 0;
+
+}
+.our-journal div div{
+    width: 100%;
+    padding: 0;
+}
+.our-journal div div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.our-journal ul{
+    padding: 1rem 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 2rem;
+}
+.our-journal h3{
+    font-size: 1.8rem;
+    font-weight: 500;
+    padding: 1rem 0;
+}
+.our-journal ul li{
+    font-size: 1.5rem;
+    font-family: Roboto,sans-serif;
+    padding-right: 2rem;
+}
+.our-journal ul i{
+    color: rgba(255, 0, 0,.7);
+    margin-right: .5rem;
+}
+.our-journal h4{
+    font-size: 1.4rem;
+    font-weight: 500;
+    padding: 2rem 0;
+}
+.image-text{
+    position: relative;
+}
+.image-text h5{
+    position: absolute;
+    left: 1.5rem;
+    bottom: -4rem;
+    padding: 2rem 2.5rem;
+    transform: rotateZ(-90deg);
+    transform-origin: left top 10px;
+    background-color: white;
+    z-index: 11;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+@media screen and (max-width:1072px) {
+    .our-journal{
+        width: 95%;
+    }
+}
+@media screen and (max-width:900px) {
+    .image-text h5{
+        padding: 1rem 2rem;
+        bottom: -3rem;
+    }
+}
+@media screen and (max-width:767px) {
+    .our-journal{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:800px) {
+    .what-we{
+        min-height: 40vh;
+        font-size: 4rem;
+    }
+}
+@media screen and (max-width:570px) {
+    .what-we{
+        min-height: 25vh;
+        font-size: 3rem;
+    }
+}

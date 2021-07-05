@@ -1,0 +1,23 @@
+.slider-box{
+    width: 80%;
+    margin: 8rem auto;
+    padding-left: 6rem;
+    overflow: hidden;
+}
+
+@media screen and (max-width:856px) {
+    .slider-box{
+        width: 90%;
+    }
+}
+@media screen and (max-width:500px) {
+    .slider-box{
+        width: 60%;
+    }
+}
+@media screen and (max-width:370px) {
+    .slider-box{
+        width: 80%;
+    }
+}
+

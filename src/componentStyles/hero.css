@@ -1,0 +1,82 @@
+.hero{
+    width: 100%;
+    background-image: url(../images/home.png),url(../images/backhome.png);
+    background-position: 0 0;
+    background-size: 60%,95%;
+    background-repeat: no-repeat;
+}
+.hero-box{
+    min-height: 90vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.hero-box div{
+    width: 50%;
+}
+.hero-box div h2{
+    font-size: 6.5rem;
+    letter-spacing: 2.5px;
+    padding-bottom: 2rem;
+}
+.hero-box h2 span{
+    color: red;
+}
+.hero-box h5{
+    font-size: 1.5rem;
+    font-weight: normal;
+    padding-bottom: 1rem;
+}
+.hero-box p{
+    line-height: 2.8rem;
+    padding-bottom: 4.5rem;
+    font-weight: normal;
+    color: #434648;
+    letter-spacing: 1px;
+}
+.hero-box a{
+    padding: 1.5rem 4rem;
+    color: white;
+    background-color: black;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: inline-block;
+    transition: 0.5s;
+}
+.hero-box a:hover{
+    background-color: red;
+}
+
+@media screen and (max-width:990px){
+    html{
+        font-size: 59%;
+    }
+    .hero-box{
+        justify-content: flex-start;
+    }
+    .hero-box div{
+        width: 60%;
+    }
+    .hero{
+        background-color: #f6f6f6;
+        background-position: 100% 0;
+        background-size: 60%,100%;
+    } 
+}
+@media screen and (max-width:500px){
+    html{
+        font-size: 53%;
+    }
+    .hero-box{
+        justify-content: flex-start;
+    }
+    .hero-box div{
+        width: 80%;
+    }
+    .hero-box h2{
+        line-height: 1.2;
+    }
+    .hero{
+       background-image: none;
+    } 
+}

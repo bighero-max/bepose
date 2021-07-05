@@ -1,0 +1,132 @@
+.pricing-plan{
+    min-height: 100vh;
+    width: 85%;
+    margin: 5rem auto;
+    margin-top: 10rem;
+}
+.pricing-plan-head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pricing-plan h4{
+    color: red;
+    padding: 1rem;
+    font-size: 1.6rem;
+    font-family: Roboto,sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+.pricing-plan h2{
+    padding: 2rem;
+    position: relative;
+    margin-bottom: 1rem;
+    font-weight: 500;
+    margin-bottom: 5rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+.pricing-plan h2::before{
+    content: '';
+    width: 30%;
+    height: 2px;
+    background-color: #7f8183;
+    position: absolute;
+    bottom: 0;
+    left: 35%;
+}
+.pricing-plan-cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.pricing-plan-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    flex: 1 1 30rem;
+    margin: 1rem 2rem;
+    border: 1px solid #cecece;
+    border-radius: 8px;
+}
+.pricing-icon{
+    background-color: #f6f7f8;
+    padding: 3rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Roboto, sans-serif;
+}
+.pricing-icon h3{
+    font-size: 3rem;
+}
+.pricing-icon img{
+    padding-bottom: 2rem;
+}
+.pricing-details{
+    padding: 3rem 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #f6f7f8;
+    margin-top: 2rem;
+}
+.pricing-details h3{
+    font-size: 3.6rem;
+    padding-bottom: 2rem;
+}
+.pricing-details ul li{
+    padding: 0.5rem 0;
+    color: #b3b3b3;
+}
+.pricing-details button{
+    padding: 1.5rem 4rem;
+    border-radius: 0px;
+    margin-top: 2rem;
+    background-color: black;
+    color: white;
+    border: none;
+    text-transform: uppercase;
+}
+.pricing-details button:hover{
+    background-color: red;
+}
+.specialicon{
+    background-color: red;
+}
+.specialicon h3{
+    color: white;
+}
+.specialdetail{
+    background-color: red;
+    color: white;
+}
+.specialdetail button{
+    background-color: white;
+    color: black;
+}
+.specialdetail ul li{
+    color: white;
+}
+.specialdetail button:hover{
+    background-color: white;
+}
+
+@media screen and (max-width:990px) {
+    .pricing-plan{
+        width: 95%;
+    }
+}
+@media screen and (max-width:568px) {
+    .pricing-plan{
+        width: 98%;
+    }
+}

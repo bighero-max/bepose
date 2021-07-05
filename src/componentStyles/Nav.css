@@ -1,0 +1,155 @@
+.main-head{
+    width: 100%;
+    box-shadow: 0 5px 5px rgba(0,0,0,.1);
+    z-index: 2222222;
+    background-color: white;
+}
+nav{
+    width: 88%;
+    min-height: 10vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+}
+nav h1{
+    flex: 1 1 20rem;
+    font-weight: 1000;
+    cursor: pointer;
+}
+nav h1 a{
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-family: Roboto;
+}
+nav h1 span{
+    color: red;
+}
+.nav-menus{
+    flex: 6 1 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.nav-links{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    flex: 1 1 0;
+    transition: 1s;
+    z-index: 111;
+}
+.nav-links a{
+    font-weight: 500;
+}
+.nav-tools{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-tools i{
+    padding: 0 1rem;
+    cursor: pointer;
+}
+.nav-tools input{
+  position: absolute;
+  width: 96%;
+  left: 2%;
+  padding: 1rem;
+  z-index: 1112;
+  border-radius: 6px;
+  border: 1px solid rgb(189, 189, 189);
+}
+.searchIcon{
+  z-index: 1113;
+  position: absolute;
+  right: 2%;
+  padding: 0 1rem;
+}
+.toggleSearch{
+  top: -10rem;
+}
+
+/* Navbar Toggler */
+.bar {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    padding: 0;
+    display: none;
+  }
+  .line {
+    fill: none;
+    stroke: black;
+    stroke-width: 6;
+    transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1),
+      stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .line1 {
+    stroke-dasharray: 60 207;
+    stroke-width: 6;
+  }
+  .line2 {
+    stroke-dasharray: 60 60;
+    stroke-width: 6;
+  }
+  .line3 {
+    stroke-dasharray: 60 207;
+    stroke-width: 6;
+  }
+  .opened .line1 {
+    stroke-dasharray: 90 207;
+    stroke-dashoffset: -134;
+    stroke-width: 6;
+  }
+  .opened .line2 {
+    stroke-dasharray: 1 60;
+    stroke-dashoffset: -30;
+    stroke-width: 6;
+  }
+  .opened .line3 {
+    stroke-dasharray: 90 207;
+    stroke-dashoffset: -134;
+    stroke-width: 6;
+  }
+
+
+
+@media screen and (max-width:990px) {
+    nav{
+        width: 95%;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .bar{
+        display: block;
+    }
+  .nav-links{
+      position: absolute;
+      width: 100%;
+      min-height: 70vh;
+      background-color: white;
+      top: 10vh;
+      left: -100%;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      padding: 1rem;
+  }
+
+  .responsive{
+     left: 0;
+    }
+  .nav-links li{
+      padding: 2rem 3rem;
+  }
+  .nav-menus{
+      justify-content: flex-end;
+  }
+}

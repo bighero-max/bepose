@@ -1,0 +1,79 @@
+.about-us{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-us div{
+    width: 70%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about-us h4{
+    color: red;
+    padding: 1rem;
+    font-size: 1.6rem;
+    font-family: Roboto,sans-serif;
+    font-weight: normal;
+}
+.about-us h2{
+    padding: 2rem;
+    position: relative;
+    margin-bottom: 1rem;
+    font-weight: 500;
+    width: 80%;
+}
+.about-us h2::before{
+    content: '';
+    width: 30%;
+    height: 3px;
+    background-color: #7f8183;
+    position: absolute;
+    bottom: 0;
+    left: 35%;
+}
+.about-us p{
+    padding: 5rem 0;
+    color: #7f8183;
+    font-size: 1.8rem;
+    font-weight: normal;
+    font-family: Roboto,sans-serif;
+    line-height: 1.6;
+}
+.about-us button{
+    padding: 1.5rem 4rem;
+    color: white;
+    background-color: black;
+    font-size: 2rem;
+    font-family: Roboto,sans-serif;
+    transition: .5s;
+    border: none;
+}
+.about-us button:hover{
+    background-color: red;
+}
+
+@media screen and (max-width:916px){
+    .about-us div{
+        width: 90%;
+    }
+}
+@media screen and (max-width:716px){
+    .about-us h2{
+        width: 90%;
+    }
+    .about-us p{
+        text-align: start;
+    }
+}
+@media screen and (max-width:416px){
+    .about-us h2{
+       font-size: 3rem;
+    }
+    .about-us p{
+        text-align: start;
+    }
+}

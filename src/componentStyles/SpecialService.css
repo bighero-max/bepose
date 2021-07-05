@@ -1,0 +1,119 @@
+.special-service{
+    min-height: 100vh;
+    width: 80%;
+    margin: 5rem auto;
+}
+.special-service-head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.special-service h4{
+    color: red;
+    padding: 1rem;
+    font-size: 1.6rem;
+    font-family: Roboto,sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+.special-service h2{
+    padding: 2rem;
+    position: relative;
+    margin-bottom: 1rem;
+    font-weight: 500;
+    margin-bottom: 5rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+.special-service h2::before{
+    content: '';
+    width: 30%;
+    height: 2px;
+    background-color: #7f8183;
+    position: absolute;
+    bottom: 0;
+    left: 35%;
+}
+.special-service-cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.special-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 4rem;
+    position: relative;
+}
+.special-image::before{
+    content: '';
+    width: 70%;
+    height: 1px;
+    background-color: #7f8183;
+    position: absolute;
+    bottom: 0;
+    left: 15%;
+    /* margin: 1rem; */
+}
+.special-service-card{
+    flex: 1 1 30rem;
+    padding: 5rem 3rem;
+    margin: 1rem;
+    text-align: center;
+    border: 1px solid #dfe1e3;
+    height: 100%;
+    transition: .5s;
+    border-radius: 4px;
+}
+.special-service-card:hover h3,.special-service-card:hover h4{
+    color: red;
+}
+.special-service-card:hover h4 span{
+    background-color: red;
+}
+.special-service-card:hover{
+    transform: scale(1.01);
+    box-shadow: 0 10px 10px #7f8183;
+}
+.special-service-card h3{
+    margin: 4rem 0 3rem 0;
+    font-size: 1.8rem;
+    font-weight: 500;
+
+}
+.special-service-card p{
+    color: #7f8183;
+    font-family: Roboto, sans-serif;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+}
+.special-service-card h4{
+    color: black;
+    font-size: 1.4rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Oswald",sans-serif;
+}
+.special-service-card h4 span{
+    width: 40px;
+    height: 2px;
+    background-color: #7f8183;
+    display: inline-block;
+    margin: 0 1.5rem;
+}
+
+@media screen and (max-width:430px) {
+    .special-service{
+        width: 95%;
+    }
+}
+@media screen and (max-width:350px) {
+    .special-service{
+        width: 98%;
+    }
+}
