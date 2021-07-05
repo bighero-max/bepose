@@ -20,21 +20,21 @@ function TestimonialSlider (){
         <Slider {...settings}>
             <div>
                 <div className='testimonial-slide'>
-                    <img src={testi} alt=""/>
+                    <img src={testi} alt="sasa"/>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elalias recusandae asperiores quibusdam fugiat sint nisi, consectetur laboriosam tempore ipsum soluta at iste nemo corrupti ratione.</p>
                     <h3>by elena</h3>
                 </div>
             </div>
             <div>
                 <div className='testimonial-slide'>
-                    <img src={testi} alt=""/>
+                    <img src={testi} alt="sasa"/>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing recusandae asperiores quibusdam fugiat sint nisi, consectetur laboriosam tempore ipsum soluta at iste nemo corrupti ratione.</p>
                     <h3>by elena</h3>
                 </div>
             </div>
             <div>
                 <div className='testimonial-slide'>
-                    <img src={testi} alt=""/>
+                    <img src={testi} alt="sasas"/>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing edae asperiores quibusdam fugiat sint nisi, consectetur laboriosam tempore ipsum soluta at iste nemo corrupti ratione.</p>
                     <h3>by elena</h3>
                 </div>

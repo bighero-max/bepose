@@ -14,12 +14,12 @@ function Gallery (){
             <h4>Thing spirit you're good moved together above man divide seasons</h4>
         </header>
         <div className="gallery-content">
-            <div className='box1'><img src={e} alt=""/></div>
-            <div className='box2'><img src={p} alt=""/></div>
-            <div className='box3'><img src={o} alt=""/></div>
-            <div className='box4'><img src={n} alt=""/></div>
-            <div className='box5'><img src={e} alt=""/></div>
-            <div className='box6'><img src={n} alt=""/></div>   
+            <div className='box1'><img src={e} alt="sas"/></div>
+            <div className='box2'><img src={p} alt="sasa"/></div>
+            <div className='box3'><img src={o} alt="sasa"/></div>
+            <div className='box4'><img src={n} alt="sasa"/></div>
+            <div className='box5'><img src={e} alt="sasa"/></div>
+            <div className='box6'><img src={n} alt="sas"/></div>   
         </div>
                 <SimpleSlider/> 
          </>

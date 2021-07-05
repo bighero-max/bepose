@@ -17,56 +17,56 @@ function RecentProjects() {
                 <h2>BEST PHOTOGRAPHY SHOWCASE</h2>
             </header>
             <div className="recent-projects-galery">
-                <div className='galery-image-box'><img src={boy} alt=""/>
+                <div className='galery-image-box'><img src={boy} alt="sas"/>
                     <div className='hover-img'>
                         <h3>MAN PHOTOGRAPHY</h3>
                         <span></span>
                         <h5>artist</h5>
                     </div>
                 </div>
-                <div className='galery-image-box'><img src={boy3} alt=""/>
+                <div className='galery-image-box'><img src={boy3} alt="sasa"/>
                     <div className='hover-img'>
                         <h3>WOMAN PHOTOGRAPHY</h3>
                         <span></span>
                         <h5>artist</h5>
                     </div>
                 </div>
-                <div className='galery-image-box'><img src={boy8} alt=""/>
+                <div className='galery-image-box'><img src={boy8} alt="sasa"/>
                     <div className='hover-img'>
                         <h3>MAN PHOTOGRAPHY</h3>
                         <span></span>
                         <h5>artist</h5>
                     </div>
                 </div>
-                <div className='galery-image-box'><img src={boy4} alt=""/>
+                <div className='galery-image-box'><img src={boy4} alt="sasa"/>
                     <div className='hover-img'>
                         <h3>WOMAN PHOTOGRAPHY</h3>
                         <span></span>
                         <h5>artist</h5>
                     </div>
                 </div>
-                <div className='galery-image-box'><img src={boy5} alt=""/>
+                <div className='galery-image-box'><img src={boy5} alt="sas"/>
                     <div className='hover-img'>
                         <h3>WOMAN PHOTOGRAPHY</h3>
                         <span></span>
                         <h5>artist</h5>
                     </div>
                 </div>
-                <div className='galery-image-box'><img src={boy6} alt=""/>
+                <div className='galery-image-box'><img src={boy6} alt="sas"/>
                     <div className='hover-img'>
                         <h3>MAN PHOTOGRAPHY</h3>
                         <span></span>
                         <h5>artist</h5>
                     </div>
                 </div>
-                <div className='galery-image-box'><img src={boy7} alt=""/>
+                <div className='galery-image-box'><img src={boy7} alt="sasa"/>
                     <div className='hover-img'>
                         <h3>WOMAN PHOTOGRAPHY</h3>
                         <span></span>
                         <h5>artist</h5>
                     </div>
                 </div>
-                <div className='galery-image-box'><img src={boy2} alt=""/>
+                <div className='galery-image-box'><img src={boy2} alt="sasa"/>
                     <div className='hover-img'>
                         <h3>MAN PHOTOGRAPHY</h3>
                         <span></span>

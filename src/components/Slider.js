@@ -45,22 +45,22 @@ function SimpleSlider (){
         <div className='slider-box'>
         <Slider {...settings}>
           <div>
-            <img src={partner1} alt=""/>
+            <img src={partner1} alt="asa"/>
           </div>
           <div>
-            <img src={partner2} alt=""/>
+            <img src={partner2} alt="sas"/>
           </div>
           <div>
-            <img src={partner3} alt=""/>
+            <img src={partner3} alt="sasa"/>
           </div>
           <div>
-            <img src={partner2} alt=""/>
+            <img src={partner2} alt="sasa"/>
           </div>
           <div>
-            <img src={partner1} alt=""/>
+            <img src={partner1} alt="sasa"/>
           </div>
           <div>
-            <img src={partner3} alt=""/>
+            <img src={partner3} alt="sasa"/>
           </div>
         </Slider>
       </div>

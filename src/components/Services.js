@@ -36,7 +36,7 @@ function Services(){
             </header>
             <div className="our-journal">
                 <div>
-                    <div className='image-text'><img src={g} alt=""/>
+                    <div className='image-text'><img src={g} alt="asas"/>
                     <h5>Photography</h5>
                     </div>
                     <ul>
@@ -47,7 +47,7 @@ function Services(){
                     <h4>CONTINUE READING <i className="fas fa-angle-double-right"></i> </h4>
                 </div>
                 <div>
-                <div className='image-text'><img src={h} alt=""/>
+                <div className='image-text'><img src={h} alt="sasas"/>
                     <h5>wedding</h5>
                     </div>
                     <ul>
@@ -58,7 +58,7 @@ function Services(){
                     <h4>CONTINUE READING <i className="fas fa-angle-double-right"></i></h4>
                 </div>
                 <div>
-                <div className='image-text'><img src={i} alt=""/>
+                <div className='image-text'><img src={i} alt="sasa"/>
                     <h5>multimedia</h5>
                     </div>
                     <ul>

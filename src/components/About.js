@@ -20,7 +20,7 @@ function About (){
                     <h2>CREATING A TIMELESS LOOK, COUPLED WITH THE MAIN FLAWLESS MOMENT</h2>
                 </header>
                 <div className="creating-text">
-                    <img src={creat} alt=""/>
+                    <img src={creat} alt="sasas"/>
                     <p>
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas quidem voluptatem dolore quae error aliquam deserunt unde ut voluptates porro.
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum, distinctio recusandae dolorum ducimus harum itaque atque omnis accusamus repellendus id dolor asperiores quas, laboriosam, debitis eius enim excepturi quae voluptatum!
@@ -37,7 +37,7 @@ function About (){
             </div>
             <SimpleSlider/>
             <div className="about-footer">
-                <div><img src={footerjpg} alt=""/><i className="fab fa-instagram"></i></div>
+                <div><img src={footerjpg} alt="sasas"/><i className="fab fa-instagram"></i></div>
                 <div><img src={a} alt=""/><i className="fab fa-instagram"></i></div>
                 <div><img src={b} alt=""/><i className="fab fa-instagram"></i></div>
                 <div><img src={c} alt=""/><i className="fab fa-instagram"></i></div>

@@ -18,7 +18,7 @@ function Blog(){
             </header>
             <div className="blog-journal">
                 <div className='blog-card'>
-                    <div className='blog-image-text'><img src={k} alt=""/>
+                    <div className='blog-image-text'><img src={k} alt="sasa"/>
                     <h5>Photography</h5>
                     </div>
                     <ul>
@@ -30,7 +30,7 @@ function Blog(){
                     <h4>CONTINUE READING <i className="fas fa-angle-double-right"></i> </h4>
                 </div>
                 <div className='blog-card'>
-                <div className='blog-image-text'><img src={l} alt=""/>
+                <div className='blog-image-text'><img src={l} alt="sasa"/>
                     <h5>wedding</h5>
                     </div>
                     <ul>
@@ -42,7 +42,7 @@ function Blog(){
                     <h4>CONTINUE READING <i className="fas fa-angle-double-right"></i></h4>
                 </div>
                 <div className='blog-card'>
-                <div className='blog-image-text'><img src={m} alt=""/>
+                <div className='blog-image-text'><img src={m} alt="sasas"/>
                     <h5>multimedia</h5>
                     </div>
                     <ul>

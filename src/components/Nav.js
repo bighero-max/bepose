@@ -23,7 +23,7 @@ function Nav(){
     return(
         <header className='main-head'>
             <nav>
-                <h1 id='logo'> <a href="">be<span>p</span>ose</a></h1>
+                <h1 id='logo'> <a href="/home">be<span>p</span>ose</a></h1>
                 <div className='nav-menus'>
                     <ul className={isOpen?'nav-links responsive':'nav-links'}>
                         <li onClick={open}><Link to='/'>Home</Link></li>

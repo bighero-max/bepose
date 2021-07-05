@@ -12,7 +12,7 @@ function SpecialSevice (){
             <div className="special-service-cards">
                 <div className="special-service-card">
                     <div className="special-image">
-                        <img src={business} alt=""/>
+                        <img src={business} alt="sasa"/>
                     </div>
                     <h3>BUSINESS PHOTOGRAPHY</h3>
                     <p>Beginning trees fifth moveth that an won every without years own upon waters female tree give evening over man green set land beginning</p>
@@ -20,7 +20,7 @@ function SpecialSevice (){
                 </div>
                 <div className="special-service-card">
                     <div className="special-image">
-                        <img src={wedding} alt=""/>
+                        <img src={wedding} alt="sasa"/>
                     </div>
                     <h3>BUSINESS PHOTOGRAPHY</h3>
                     <p>Beginning trees fifth moveth that an won every without years own upon waters female tree give evening over man green set land beginning</p>
@@ -28,7 +28,7 @@ function SpecialSevice (){
                 </div>
                 <div className="special-service-card">
                     <div className="special-image">
-                        <img src={business} alt=""/>
+                        <img src={business} alt="sasa"/>
                     </div>
                     <h3>BUSINESS PHOTOGRAPHY</h3>
                     <p>Beginning trees fifth moveth that an won every without years own upon waters female tree give evening over man green set land beginning</p>
